@@ -1,0 +1,25 @@
+{
+  "name": "anticosm-band-website",
+  "version": "1.0.0",
+  "description": "A website for a band named Anticosm",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Splimis/anticosm-band-website.git"
+  },
+  "author": "Ethan Susman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Splimis/anticosm-band-website/issues"
+  },
+  "homepage": "https://github.com/Splimis/anticosm-band-website#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
