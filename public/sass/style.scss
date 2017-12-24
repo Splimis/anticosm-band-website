@@ -1,6 +1,9 @@
+body {
+	background-image: url(../assets/background1.jpg);
+}
+
 .banner {
 	background-color: black;
-
 }
 
 .placeHolder {
@@ -8,15 +11,29 @@
 	height: 200px;
 }
 
+.banner-img{
+	width: 100%;
+	height: 500px;
+	opacity: .4;
+}
+
 .navbar-static-top {
 	background-color: gray;
+	opacity: 0.6;
 }
 
 .carousel{
 
-	background-color: blue;
+	background-color: black;
+}
+
+.d-block{
+	height: 400px;
+	width: 400px;
 }
 
 .footer{
 	background-color: black;
+	width: 100%;
+	height: 50px;
 }
